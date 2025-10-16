@@ -6,8 +6,13 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Donavida.do - Donación de Sangre en República Dominicana',
-  description: 'Conectamos donantes voluntarios con bancos de sangre en República Dominicana. Tu sangre salva vidas.',
+  description: 'Conectamos donantes voluntarios con bancos de sangre en República Dominicana.',
+  icons: {
+    icon: '/favicon.ico', // referencia desde public
+  },
 }
+
+
 
 export default function RootLayout({
   children,
